@@ -167,5 +167,24 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore PyInstaller build files
+build/
+dist/
+*.spec
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+
 # PyPI configuration file
 .pypirc
